@@ -1,0 +1,15 @@
+[general]
+import = [
+   "./themes/themes/tokyo-night.toml" 
+]
+
+[window]
+decorations = "Transparent"
+blur = true
+opacity = 0.90
+
+[font]
+#normal = {family="JuliaMono Nerd Font Mono", style="Regular"}
+# normal = {family="Iosevka Nerd Font Mono", style="Regular"}
+normal = {family="RobotoMono Nerd Font Mono", style="Regular"}
+size = 13.00
