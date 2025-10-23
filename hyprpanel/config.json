@@ -196,8 +196,8 @@
     "sh",
     "-c"
   ],
-  "theme.font.name": "RobotoMono Nerd Font Mono",
-  "theme.font.label": "RobotoMono Nerd Font Mono",
+  "theme.font.name": "JetBrainsMono Nerd Font Mono",
+  "theme.font.label": "JetBrainsMono Nerd Font Mono",
   "bar.workspaces.show_icons": false,
   "bar.workspaces.show_numbered": true,
   "bar.workspaces.showWsIcons": false,
@@ -215,7 +215,7 @@
   "theme.bar.buttons.style": "default",
   "theme.bar.opacity": 80,
   "theme.bar.floating": false,
-  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.buttons.enableBorders": true,
   "bar.launcher.autoDetectIcon": false,
   "theme.bar.buttons.dashboard.enableBorder": false,
   "theme.bar.menus.menu.dashboard.scaling": 70,
@@ -632,5 +632,9 @@
   "theme.matugen_settings.scheme_type": "tonal-spot",
   "theme.matugen_settings.mode": "dark",
   "bar.customModules.netstat.dynamicIcon": true,
-  "theme.bar.buttons.modules.cava.enableBorder": true
+  "theme.bar.buttons.modules.cava.enableBorder": true,
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "menus.dashboard.shortcuts.left.shortcut4.command": "wofi --show drun"
 }
